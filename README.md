@@ -12,16 +12,12 @@
 
 .
 ├── README.md                   <-- This instructions file
-├── boto3_layer                 <-- Source code for a lambda layer that contains the boto3 library
-│   └── boto3_layer.zip
 ├── code_genration              <-- Source code for a lambda function that generates code
 │   ├── code_genration.py       <-- Lambda function code for generating code programm
 ├── Image_generation            <-- Source code for a lambda function that generates images
 │   ├── image_generation.py     <-- Lambda function code for generating images programm
 ├── meet_summary                <-- Source code for a lambda function that generates meet summary
 │   ├── meeting_summarization.py        <-- Lambda function code for generating meet summary programm
-├── pytz                        <-- Source code for a lambda layer that contains the pytz library
-│   └── pytz.zip
 
 ```
 
