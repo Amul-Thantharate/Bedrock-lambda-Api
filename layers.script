@@ -1,0 +1,18 @@
+# Fist create a boto3_layer directory 
+mkdir boto3_layer
+cd boto3_layer
+
+# Then Create a virtual enviorment 
+pipenv shell 
+
+# Then create boto3 library
+pip install boto3 -t ./python 
+
+# Then delete the enviorment 
+pipenv exit 
+
+# Then create a zip file 
+zip -r boto3_layer.zip ./python
+
+# Then Do same for pytz 
+Reapt all the steps
